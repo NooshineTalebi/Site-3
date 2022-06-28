@@ -1,0 +1,68 @@
+*{
+    user-select: none;
+}
+.nav-item{
+    margin-right: 5rem;
+    margin-left: 5rem;
+    font-size: 1.2rem;
+}
+
+.p-1{
+    font-size:20px;
+    font-weight: bold;
+    color: darkslategrey;
+    margin-top: 2rem;
+    margin-bottom: 5rem;   
+}
+.a-1{
+    text-decoration: none;
+    color:rgb(8, 110, 110) ;
+    font-size: large;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid rgb(98, 98, 202);
+    border-radius: 10px;
+    padding: 0.5rem 0.8rem;
+}
+.a-1:hover{
+    text-decoration: underline;
+}
+.a-2{
+    text-decoration: none;
+    color:rgb(111, 111, 245) ;
+    font-weight: bold;
+    background-color: rgb(231, 246, 255);
+    border: 2px solid rgb(130, 130, 182);
+    border-radius: 10px;
+    padding: 0.2rem 0.4rem;
+}
+.a-2:hover{
+    color: blue;
+    background-color: aliceblue;
+}
+.card-item{
+    box-shadow: 0 0 10px rgba(117,117,117,.2);
+}
+.test{
+    color: darkcyan;
+}
+.paragraph{
+    color: rgb(123, 188, 229);
+}
+.form-control{
+    padding-left: 0.5rem;
+    border: 2px solid gold;
+    outline: none;
+}
+.textarea{
+    border: 2px solid gold;
+    width: 50%;
+    height: 10rem;
+    padding-left: 0.5rem;
+    resize: none;
+    outline: none;
+    border-radius: 5px;
+}
+::placeholder{
+    color: peru!important;
+}
